@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/chilan666/android_device_xiaomi_zijin-twrp'
+        default: 'https://github.com/chilan666/android_device_xiaomi_mona-twrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,18 +22,18 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/zijin'
+        default: 'device/xiaomi/mona'
       Beizhu:
         description: '备注'
         required: false
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'zijin'
+        default: 'mona'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_zijin'
+        default: 'twrp_mona'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
